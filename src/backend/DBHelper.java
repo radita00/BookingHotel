@@ -15,9 +15,9 @@ public class DBHelper {
     public static void bukaKoneksi() {
         if (koneksi == null) {
             try {
-                String url = "jdbc:postgresql://localhost:5432/dbbookinghotel"; // ganti sesuai nama
-                String user = "postgres";                // user PostgreSQL Anda
-                String password = "1234";           // password PostgreSQL Anda
+                String url = "jdbc:postgresql://localhost:5432/dbbookinghotel"; 
+                String user = "postgres";               
+                String password = "1234";           
 
                 // Load driver PostgreSQL
                 DriverManager.registerDriver(new org.postgresql.Driver());

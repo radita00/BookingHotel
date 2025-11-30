@@ -4,6 +4,8 @@
  */
 package bookinghotel;
 
+import backend.DBHelper;
+
 /**
  *
  * @author radit
@@ -15,6 +17,6 @@ public class BookingHotel {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        DBHelper.bukaKoneksi();
     }
-    
 }
